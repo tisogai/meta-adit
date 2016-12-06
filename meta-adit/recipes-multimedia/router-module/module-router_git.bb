@@ -20,12 +20,12 @@ OECMAKE_CXX_FLAGS += "-std=c++11"
 # and should be appended to FILES_${PN} in product specific
 # audiomanager-generic-controller_git.bbappend
 FILES_${PN} = " \
-    ${libdir}/pulse-6.0/modules/module-router.so \
+    ${libdir}/pulse-*/modules/module-router.so \
 "
 
 
 FILES_${PN}-dbg += " \
-    ${libdir}/pulse-6.0/modules/.debug/module-router.so \
+    ${libdir}/pulse-*/modules/.debug/module-router.so \
 "
 
 
