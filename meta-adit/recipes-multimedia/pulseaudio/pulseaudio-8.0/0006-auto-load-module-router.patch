@@ -1,0 +1,11 @@
+--- a/src/daemon/default.pa.in
++++ b/src/daemon/default.pa.in
+@@ -195,3 +195,8 @@
+ ### Make some devices default
+ #set-default-sink output
+ #set-default-source input
++
++.ifexists module-router
++load-module module-router
++.endif
++
