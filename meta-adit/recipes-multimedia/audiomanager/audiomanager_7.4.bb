@@ -10,7 +10,7 @@ SRC_URI = " \
     file://audiomanager.service \
 "
 RDEPENDS_${PN} = "audiomanager-plugins module-router"
-SRCREV = "daf851ee7a41d1b0572c0c95e15f61e427ce97f1"
+SRCREV = "f38273696eecd718c5cfb1285a2cd0d796a0d540"
 
 S = "${WORKDIR}/git"
 inherit cmake systemd
