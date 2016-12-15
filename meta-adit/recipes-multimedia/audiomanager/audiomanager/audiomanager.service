@@ -4,6 +4,7 @@
 Description=GENIVI AudioManager
 Requires=dbus.service
 After=dbus.service
+Before=pulseaudio.service
 
 [Service]
 Type=notify
