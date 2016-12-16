@@ -5,7 +5,7 @@
  #set-default-sink output
  #set-default-source input
 +
-+.ifexists module-router
++.ifexists module-router.so
 +load-module module-router
 +.endif
 +
