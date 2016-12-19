@@ -8,10 +8,10 @@ RDEPENDS_${PN} = "audiomanager-plugins-config"
 LIC_FILES_CHKSUM = "file://PluginControlInterfaceGeneric/LICENSE.txt;md5=815ca599c9df247a0c7f619bab123dad"
 
 SRC_URI = " \
-    git://github.com/tisogai/AudioManagerPlugins.git;protocol=https;branch=develop \
+    git://github.com/tisogai/AudioManagerPlugins.git;protocol=https;branch=unknown_element_support \
   "
 
-SRCREV = "345f22c73482d47e352621ea4a88ebf73b73c8e5"
+SRCREV = "bf5c5e8198b85e84363770150d5a02f553f43296"
 
 S = "${WORKDIR}/git"
 inherit cmake
